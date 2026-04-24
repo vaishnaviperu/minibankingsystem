@@ -1,10 +1,10 @@
-# 🏦 Mini Banking System
+# Mini Banking System
 
 A desktop-based banking application built with **Java Swing** (UI), **Core Java** (backend logic), and **MySQL** (database), connected via **JDBC**.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -18,7 +18,7 @@ A desktop-based banking application built with **Java Swing** (UI), **Core Java*
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend / UI**: Java Swing
 - **Backend Logic**: Core Java
@@ -27,7 +27,7 @@ A desktop-based banking application built with **Java Swing** (UI), **Core Java*
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MiniBankingSystem/
@@ -58,7 +58,7 @@ MiniBankingSystem/
 
 ---
 
-## 🔧 Database Setup
+## Database Setup
 
 ### 1. Install MySQL
 Make sure MySQL is running on your machine.
@@ -82,7 +82,7 @@ SELECT * FROM users;
 
 ---
 
-## 🔑 Default Admin Login
+## Default Admin Login
 
 | Field    | Value      |
 |----------|------------|
@@ -95,7 +95,7 @@ SELECT * FROM users;
 
 ### Download
 Download **MySQL Connector/J** (version 8.x) from:
-👉 https://dev.mysql.com/downloads/connector/j/
+https://dev.mysql.com/downloads/connector/j/
 
 Choose "Platform Independent" → download the ZIP → extract the JAR (e.g., `mysql-connector-j-8.x.x.jar`).
 
@@ -114,7 +114,7 @@ Add the JAR path to `java.project.referencedLibraries` in `settings.json`.
 
 ---
 
-## 🔐 Change MySQL Credentials
+## Change MySQL Credentials
 
 Open `src/db/DBConnection.java` and update lines 16–18:
 
@@ -161,7 +161,7 @@ java  -cp ".;out;lib\mysql-connector-j-8.x.x.jar" Main
 
 ---
 
-## 📸 Application Flow
+## Application Flow
 
 ```
 Main.java
@@ -177,7 +177,7 @@ Main.java
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Passwords are stored as plain text for simplicity. In production, use BCrypt hashing.
 - All monetary values use `DECIMAL(12,2)` and Java `BigDecimal` to avoid floating-point errors.
