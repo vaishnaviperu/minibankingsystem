@@ -1,0 +1,15 @@
+# Java
+*.class
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Python (if any backend)
+.venv/
+
+# MySQL dumps
+*.sql
